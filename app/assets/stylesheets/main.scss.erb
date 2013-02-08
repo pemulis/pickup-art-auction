@@ -1,0 +1,36 @@
+$content-width: 800px;
+
+body {
+	background: {
+		image: url(<%= asset_path 'light_noise_diagonal.png' %>); 
+		repeat: repeat;
+	}
+}
+
+#header {
+	background-color: #555;
+}
+
+p {
+	text-align: justify; 
+	font-size: 1.3em;
+	max-width: $content-width;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+h1 {
+	color: #DDE;
+	padding: .2em 0 .2em 0;
+	max-width: $content-width;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
