@@ -13,7 +13,7 @@ body {
 
 p {
 	text-align: justify; 
-	font-size: 1.3em;
+	font-size: 2em;
 	max-width: $content-width;
 	margin: {
 		left: auto;
@@ -21,9 +21,35 @@ p {
 	}
 }
 
+.video_box {
+	max-width: $content-width;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+}
+
+// For background image transition. See Javascript assets for details.
+.second_bg_image {
+	background: {
+		image: url(<%= asset_path 'dark_fish_skin.png' %>);
+		repeat: repeat;
+	}
+	color: #EED;
+
+	a:link, a:visited, a:active {
+		color: #16E4D0;
+	}
+}
+
 h1 {
+	font: {
+		size: 4em;
+		family: 'Andika', sans-serif;
+	}
+	text-align: right;
 	color: #DDE;
-	padding: .2em 0 .2em 0;
+	padding: .2em 0 .3em 0;
 	max-width: $content-width;
 	margin: {
 		left: auto;
