@@ -4,11 +4,24 @@ body {
 	background: {
 		image: url(<%= asset_path 'light_noise_diagonal.png' %>); 
 		repeat: repeat;
+		color: #F5FAFE;
 	}
 }
 
 #header {
-	background-color: #020304;
+	margin-bottom: 10px;
+}
+
+#footer {
+	p {
+		font-size: .75em;
+		text-align: right;
+		max-width: $content-width;
+		margin: {
+			left: auto;
+			right: auto;
+		}
+	}
 }
 
 p {
@@ -34,6 +47,7 @@ p {
 	background: {
 		image: url(<%= asset_path 'dark_fish_skin.png' %>);
 		repeat: repeat;
+		color: #221F1F;
 	}
 	color: #EED;
 
@@ -45,15 +59,15 @@ p {
 h1 {
 	font: {
 		size: 4em;
-		family: 'Andika', sans-serif;
+		family: 'Julius Sans One', sans-serif;
 	}
 	text-align: right;
-	color: #DDE;
-	padding: .2em 0 .3em 0;
+	color: #1C140D;
 	max-width: $content-width;
 	margin: {
 		left: auto;
 		right: auto;
+		bottom: 0em;
 	}
 }
 
