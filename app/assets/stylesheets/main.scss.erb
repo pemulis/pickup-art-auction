@@ -2,10 +2,11 @@ $content-width: 800px;
 
 body {
 	background: {
-		image: url(<%= asset_path 'light_noise_diagonal.png' %>); 
+		image: url(<%= asset_path 'dark_fish_skin.png' %>);
 		repeat: repeat;
-		color: #F5FAFE;
+		color: #221F1F;
 	}
+	color: #DDD;
 }
 
 #header {
@@ -42,35 +43,23 @@ p {
 	}
 }
 
-// For background image transition. See Javascript assets for details.
-.second_bg_image {
-	background: {
-		image: url(<%= asset_path 'dark_fish_skin.png' %>);
-		repeat: repeat;
-		color: #221F1F;
-	}
-	color: #EED;
-
-	a:link, a:visited, a:active {
-		color: #16E4D0;
-	}
-}
-
 h1 {
 	font: {
 		size: 4em;
 		family: 'Julius Sans One', sans-serif;
 	}
 	text-align: right;
-	color: #1C140D;
+	color: #EEE;
 	max-width: $content-width;
 	margin: {
 		left: auto;
 		right: auto;
-		bottom: 0em;
+    bottom: .4em;
+    top: .3em;
 	}
 }
 
 a:link, a:visited, a:active {
-	text-decoration: none;
+  color: #16E4D0;
+  text-decoration: none;
 }
